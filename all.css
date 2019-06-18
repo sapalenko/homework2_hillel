@@ -1,0 +1,40 @@
+.heading {
+	color: blue;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.nav {
+	text-align: center;
+}
+
+.nav .nav-item {
+	color: black;
+}
+
+.nav .nav-item:active {
+	color:green;
+	text-decoration: underline;
+}
+
+.nav .red-item{
+	color: red;
+	text-decoration: none;
+}
+
+.desc {
+	margin-top: 40px;
+    line-height: 20px;
+}
+.desc:first-letter {
+	font-weight: bold;
+}
+
+strong{
+	color: green;
+}
+
+.list-odd .list-item:nth-child(odd){
+	color: red;
+}
